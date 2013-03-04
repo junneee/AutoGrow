@@ -10,6 +10,5 @@ Facebook 사이트에서 댓글 입력창에 텍스트를 입력하면 한 글�
 
 사용방법
 -------
-* textarea 태그에 'data-autogrow="true"' 속성을 추가하면 자동으로 인식하여 기능이 동작된다.
+* textarea 태그에 `data-autogrow="true"` 속성을 추가하면 자동으로 인식하여 기능이 동작된다.
 * jQuery 플러그인이 동작하도록 구성하였다.
-
