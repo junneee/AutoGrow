@@ -1,8 +1,11 @@
-GitHub Markup
+Facebook Autogrow 따라하기
 =============
 
-We use this library on GitHub when rendering your README or any other
-rich text file.
+Facebook 사이트에서 댓글 입력창에 텍스트를 입력하면 한 글자 앞서 댓글창의 높이를 미리 늘려주는 기능이 있다. 구글링을 해봐도 딱히 Facebook과 비슷한 기능이 없어 페이스북과 비슷한 기능을 꼼수를 부려 만들어 보았다.
 
-Markups
+기능동작
 -------
+
+동작원리는 매우 간단하다. 먼저 textarea와 font 관련 속성을 상속받은 div 태그를 만들고 상속받은 div태그에 textarea의 value값에 +'가'를 더해서 높이값을 가져와서 textarea에 미리 적용하는 방법이다.
+
+
