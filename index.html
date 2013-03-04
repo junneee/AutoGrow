@@ -3,15 +3,60 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title>Facebook AutoGrow 따라하기</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="./css/autogrow.css">
 </head>
 <body>
-	<div class="main">
+	<div id="header">
 		<h1>Facebook Auto Grow 따라하기</h1>
-		<div class="container">
-			<div class="left"></div>
-			<div class="right"></div>
+	</div>
+	<div id="body">
+		<div class="wrap">
+			<div class="timeline">
+				<ul>
+					<li>
+						<div class="tl-user">
+							<a href="#">
+								<img src="http://profile.ak.fbcdn.net/hprofile-ak-prn1/c31.31.388.388/s160x160/68238_370021619759362_463969884_n.jpg" alt="junneee프로필">
+							</a>
+							<span class="shadow"></span>
+							<span class="nickname">junneee</span>
+						</div>
+						<div class="content">
+							<a href="#"><h2 class="place">Title Name Space</h2></a>
+							<div class="news-content">
+								네이버와 한게임의 경영권 이야기 2편, "기업분할에 숨겨진 의도는 없는가"에 대한 기사입니다. 워낙 뜨거운 이슈이고, 책임의 소지가 커 개인적으로 가장 많은 공을 들여 취재한 기사이기도 합니다. <br/><br/>분할계획을 보면 굉장히 복잡합니다. 2개의 모바일 자회사를 세우고, NHN재팬을 쪼개고, 한게임을 분리시키고.. 여기서 가장 큰 핵심은 '한게임을 분리시킨다'는 것입니다. 시장에서도 관심이 가장 많은 사안이기도 하죠. 인적분할을 했던 기업들의 사례를 봤을 때 다양한 해석이 가능하기 때문입니다. 특히 NHN의 역사를 알면 더욱 그렇습니다.
+							</div>
+							<div class="pic">
+								<a href=""><img src="http://pds6.egloos.com/pds/200712/01/07/e0079307_4750a94f7a54c.jpg" alt="junneee가 올린사진"></a>
+							</div>
+							<div class="reply">
+								<form action="">
+									<fieldset>
+										<div class="ibox">
+											<a href="#"><img src="http://profile.ak.fbcdn.net/hprofile-ak-prn1/c31.31.388.388/s160x160/68238_370021619759362_463969884_n.jpg" alt=""></a>
+										</div>
+										<div class="comment">
+											<div class="cbox">
+												<textarea name="" id="" cols="30" rows="10" class="txa" data-autogrow="true">댓글을 입력해 주세요!</textarea>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="clone">
+			<h1>textarea의 font속성들을 상속받아 복제한 DIV</h1>
+			<div id="cloneArea" class="cloneArea">
+			</div>
 		</div>
 	</div>
+	<div id="footer">
+	</div>
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="./js/autogrow.js"></script>
 </body>
 </html>

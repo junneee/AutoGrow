@@ -1,7 +1,48 @@
 body{ }
-body,div,h1{
-	margin:0;
-	padding:0;
-	font-family:"Apple SD Gothic Neo",Dotum,"돋움",sans-serif;
-	font-size:12px;
-}
+body,form,div,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,fieldset,th,td,button{margin:0;padding:0;font-family:"Apple SD Gothic Neo",Dotum,"돋움",sans-serif;font-size:12px;}
+ol,ul,dl{list-style:none;}
+form fieldset{border:0px;}
+textarea{resize:none;}
+a{text-decoration:none;}
+
+#header{text-align:center;margin-top:20px;font-size:16px;}
+#body{position:relative;margin-top:20px;}
+#footer{position:relative;}
+
+#header h1{font-size:16px;}
+
+.wrap{position:relative;width:700px;padding-left:30px;float:left;border-right:1px solid #d8d8d8;}
+
+.clone{position:relative;float:left;margin-left:20px;}
+.clone h1{font-size:14px;}
+
+.timeline{position:relative;width:100%;}
+.timeline:after{content:".";display:block;height:0px;clear:both;visibility:hidden;}
+.timeline .tl-user{position:absolute;width:95px;height:95px;}
+.timeline .tl-user img{width:95px;height:95px;border-radius:0.3em;}
+.timeline .tl-user .shadow{position:absolute;top:0;width:100%;height:100%;border-radius:0.3em;box-shadow:inset 0 0 0.5em #000;opacity:0.5;}
+.timeline .tl-user .nickname{position:absolute;height:20px;top:75px;width:100%;opacity:0.5;background-color:#000;border-radius:0 0 0.3em 0.3em;color:#FFF;text-align:center;line-height: 20px;}
+.timeline .content{margin-left:109px;width:430px;}
+.timeline ul{overflow:hidden;}
+/*.timeline li{overflow:hidden;}*/
+.timeline li:after{content:".";display:block;height:0px;clear:both;visibility:hidden;}
+.tl-user a{}
+.tl-user a img{}
+
+.content h2{font-size:14px;color:#0079ab;margin-bottom:7px;}
+.content .place{}
+.content .news-content{}
+.content .pic img{width:430px;}
+.content .reply{background-color:#f2f1ef;padding:10px 0 10px 10px;min-height: 35px;}
+.content .reply .ibox{float:left;width:45px;height:35px;}
+.content .reply .ibox img{width:35px;height:35px;border-radius:0.3em;}
+
+.content .reply .comment{padding:0 10px 0 45px;margin:0px;display:block;}
+.content .reply .comment .cbox{border:1px solid #d8d8d8;height:15px;background-color:#fff;padding:8px 9px 10px;}
+.content .reply .comment .txa{width:100%;height:15px;margin:0;border:0;padding:0;overflow:hidden;color:#aaa;line-height:18px;word-break:break-all;word-wrap:break-word;}
+
+
+
+
+
+
