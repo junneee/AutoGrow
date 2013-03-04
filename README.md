@@ -8,4 +8,8 @@ Facebook 사이트에서 댓글 입력창에 텍스트를 입력하면 한 글�
 
 동작원리는 매우 간단하다. 먼저 textarea와 font 관련 속성을 상속받은 div 태그를 만들고 상속받은 div태그에 textarea의 value값에 +'가'를 더해서 높이값을 가져와서 textarea에 미리 적용하는 방법이다.
 
+사용방법
+-------
+* textarea 태그에 'data-autogrow="true"' 속성을 추가하면 자동으로 인식하여 기능이 동작된다.
+* jQuery 플러그인이 동작하도록 구성하였다.
 
