@@ -17,6 +17,7 @@ a{text-decoration:none;}
 .clone h1{font-size:14px;}
 
 .timeline{position:relative;width:100%;}
+.timeline li{margin-top:15px;}
 .timeline:after{content:".";display:block;height:0px;clear:both;visibility:hidden;}
 .timeline .tl-user{position:absolute;width:95px;height:95px;}
 .timeline .tl-user img{width:95px;height:95px;border-radius:0.3em;}
