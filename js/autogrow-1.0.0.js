@@ -26,7 +26,7 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  * 
- * [MIT Lincense]- MIT 라이선스 내용
+ * [MIT License]- MIT 라이선스 내용
  * 1. 이 소프트웨어를 누구라도 무상으로 제한없이 취급해도 좋다. 단, 저작권 표시 및 이 허가 표시를 소프트웨어의 모든 복제물 또는 중요한 부분에 기재해야 한다.
  * 2. 저자 또는 저작권자는 소프트웨어에 관해서 아무런 책임을 지지 않는다.
  *
