@@ -32,7 +32,7 @@ a{text-decoration:none;}
 .content h2{font-size:14px;color:#0079ab;margin-bottom:7px;}
 .content .place{}
 .content .news-content{}
-.content .pic img{width:430px;}
+.content .pic img{width:430px;margin-top:10px;}
 .content .reply{background-color:#f2f1ef;padding:10px 0 10px 10px;min-height: 35px;}
 .content .reply .ibox{float:left;width:45px;height:35px;}
 .content .reply .ibox img{width:35px;height:35px;border-radius:0.3em;}
